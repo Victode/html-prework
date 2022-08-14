@@ -1,0 +1,103 @@
+body{
+    height: 100hv;
+    width: 100%;
+    background-image: url(../css/images/bg.webp);
+}
+.header{
+    color:rgb(216, 210, 202);
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    padding-left: 4%;
+
+}
+/* Logo image  */
+.logo{
+    width:3%;
+    position: absolute;
+}
+.one{
+    color:rgb(204, 170, 125);
+    font-size: 35px;
+    padding-left:3.5%;
+}
+
+.greet{
+    color:rgb(216, 210, 202);
+    text-align: center;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-style: italic;
+    font-size: 400%;
+}
+
+.greet2{
+    color:rgb(204, 170, 125);
+    text-align: center;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-style: italic;
+    font-size: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 40px;
+}
+nav ul li{
+    list-style-type: disc;
+    display: inline-flex;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+nav ul li a {
+    color:rgb(204, 170, 125);
+    text-decoration: underline;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-style: bold;
+    font-size: 140%;
+    text-transform: uppercase;
+
+}
+footer{
+    text-align: center;
+    color:rgb(216, 210, 202);
+    padding:20px;
+    margin-bottom:50px;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+}
+.eh{
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10%;
+}
+.soc a{
+    text-transform: none;
+    text-decoration: none;
+    margin:0 10px;
+    font-size:150%;
+    color:rgb(204, 170, 125);
+}
+.info{
+    color:rgb(216, 210, 202) ;
+    font-family:Brush Script Std, cursive;
+    font-size:200%;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
+    margin:7.93%;
+}
+.abt{
+    /* text-align: justify; */
+    color:rgb(216, 210, 202) ;
+    font-family:Brush Script Std, cursive;
+    font-size:134%;
+}
+.img{
+    width:16%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
